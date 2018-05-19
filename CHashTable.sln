@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHashTable", "CHashTable\CHashTable.vcxproj", "{9537F4EA-3E5E-420F-A544-E5C2FB9A3732}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHashTest", "CHashTest\CHashTest.vcxproj", "{FD0A4886-F1E3-4F76-94F9-374A61FF54BF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9537F4EA-3E5E-420F-A544-E5C2FB9A3732} = {9537F4EA-3E5E-420F-A544-E5C2FB9A3732}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9537F4EA-3E5E-420F-A544-E5C2FB9A3732}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9537F4EA-3E5E-420F-A544-E5C2FB9A3732}.Debug|Win32.Build.0 = Debug|Win32
+		{9537F4EA-3E5E-420F-A544-E5C2FB9A3732}.Release|Win32.ActiveCfg = Release|Win32
+		{9537F4EA-3E5E-420F-A544-E5C2FB9A3732}.Release|Win32.Build.0 = Release|Win32
+		{FD0A4886-F1E3-4F76-94F9-374A61FF54BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD0A4886-F1E3-4F76-94F9-374A61FF54BF}.Debug|Win32.Build.0 = Debug|Win32
+		{FD0A4886-F1E3-4F76-94F9-374A61FF54BF}.Release|Win32.ActiveCfg = Release|Win32
+		{FD0A4886-F1E3-4F76-94F9-374A61FF54BF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
